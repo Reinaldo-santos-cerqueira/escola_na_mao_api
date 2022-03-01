@@ -1,0 +1,27 @@
+{
+  "name": "escola_na_mao_api",
+  "version": "1.0.0",
+  "description": "API feita com node mysql para um app mobile de escolas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reinaldo-santos-cerqueira/escola_na_mao_api.git"
+  },
+  "author": "Reinaldo Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Reinaldo-santos-cerqueira/escola_na_mao_api/issues"
+  },
+  "homepage": "https://github.com/Reinaldo-santos-cerqueira/escola_na_mao_api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15"
+  }
+}
